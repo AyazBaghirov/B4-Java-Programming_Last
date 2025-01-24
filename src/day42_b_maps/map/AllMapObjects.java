@@ -41,7 +41,10 @@ public class AllMapObjects {
         map3.put("test", null); // null is OK as VALUE
         map3.put("check", null); // null is OK as VALUE even if it is duplicate
         System.out.println(map3);
-        // LinkedHashMap: NO DUPLICATE KEY - SORTED Order (ASCII) - null as KEY is NOT allowed - null as VALUE is allowed
+
+        // TreeMap: NO DUPLICATE KEY - SORTED Order (ASCII) - null as KEY is NOT allowed - null as VALUE is allowed
+
+        // LinkedHashMap: NO DUPLICATE KEY - SORTED Order (ASCII) - null as KEY is NOT allowed - null as VALUE is 
 
 
         Map<String, String> map4 = new Hashtable<>();
@@ -53,7 +56,11 @@ public class AllMapObjects {
         // map4.put("test", null); // null is NOT OK as VALUE either
         // map4.put("check", null); // null is NOT OK as VALUE either
         System.out.println(map4);
+
+        // HashTable: NO DUPLICATE KEY - Random Order - null as KEY is NOT allowed - null as VALUE is NOT allowed - it is SYNCHRONIZED (Thread-safe)
+
         // LinkedHashMap: NO DUPLICATE KEY - Random Order - null as KEY is NOT allowed - null as VALUE is NOT allowed - it is SYNCHRONIZED (Thread-safe)
+
 
 
     }

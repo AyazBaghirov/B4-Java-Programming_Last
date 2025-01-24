@@ -31,11 +31,16 @@ public class QueueObjects {
 
         System.out.println();
 
+
+        priorityQueue.poll();   // FIFO -- > First in First Out -- > first one was removed
+        System.out.println(priorityQueue);
+        priorityQueue.poll();   // FIFO -- > First in First Out -- > first one was removed
+
         System.out.println(priorityQueue.poll());   // FIFO -- > First in First Out -- > first one was removed - also returns what was removed - once the element is removed, there a new order may happen.
         System.out.println(priorityQueue);
         System.out.println(priorityQueue.poll());   // FIFO -- > First in First Out -- > first one was removed
-        System.out.println(priorityQueue);
 
+        System.out.println(priorityQueue);
 
 
 
