@@ -84,5 +84,15 @@ public class ListVsSet {
         System.out.println(  new LinkedHashSet<>(Arrays.asList(arr))  ); // remove dup and keep same order
         System.out.println(  new TreeSet<>(Arrays.asList(arr))  ); // remove dup and sort the order
 
+
+        System.out.println("-------------------------");
+        //Q: Can you remove duplicate characters from this string
+        // "avnaljkashsldkvnsalsdkffgnv"
+
+        String str = "avnaljkashsldkvnsalsdkffgnv";
+
+        System.out.println( Arrays.toString( str.split("") ) );
+        System.out.println( new LinkedHashSet<>( Arrays.asList(    str.split("")   )  )  );
+
     }
 }

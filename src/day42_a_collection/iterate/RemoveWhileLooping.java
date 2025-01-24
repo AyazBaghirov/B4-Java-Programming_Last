@@ -66,6 +66,7 @@ public class RemoveWhileLooping {
         //                                                  12, 54, 23, 65
 
 
+
         // 4 - with removeIf(); / this method is from Functional Interface
         System.out.println("----------------------------------------------");
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(2, 3, 5, 6, 6, 12, 54, 23, 65, 3, 6));
@@ -75,3 +76,7 @@ public class RemoveWhileLooping {
         System.out.println(new TreeSet<Integer>(list2));
     }
 }
+
+    }
+}
+
